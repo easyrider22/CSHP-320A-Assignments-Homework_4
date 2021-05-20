@@ -82,7 +82,7 @@ namespace Homework4
 
         private void uxSubmitButton_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Submitting Zip Code: " + uxZipTextBox.Text);
+            MessageBox.Show("Valid Zip Code: " + uxZipTextBox.Text);
             uxZipTextBox.Text = null;
         }
     }
